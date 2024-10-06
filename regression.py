@@ -13,6 +13,8 @@ def load_prediction_models(model_file):
 
 
 def main():
+    st.set_page_config(initial_sidebar_state="collapsed")
+
     with open("src/style/style.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 

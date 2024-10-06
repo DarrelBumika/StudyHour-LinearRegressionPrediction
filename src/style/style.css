@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+.stButton > button {
+    width: 100%;
+    padding: 0 50px;
+    box-shadow: 5px 5px #b17457;
+    transition: all ease-in .05s;
+    border-radius: 10px;
+    border: 1px solid #b17457;
+    color: #b17457;
+    font-weight: bold;
+}
+
+.stButton > button:active {
+    box-shadow: none;
+    transform: translateY(4px) !important;
+    transition: all ease-in .05s;
+}

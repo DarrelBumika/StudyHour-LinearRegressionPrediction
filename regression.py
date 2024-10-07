@@ -44,7 +44,7 @@ def main():
 
     if choice == "Skor Ujian Berdasarkan Jam Belajar":
         st.subheader("Skor Ujian Berdasarkan Jam Belajar")
-        study_hour = st.slider("Berapa total jam belajar: ", 0, 10)
+        study_hour = st.slider("Berapa total jam belajar: ", 0.0, 10.0)
 
         if st.button("PROSES"):
             st.subheader("Hasil Prediksi Skor Ujian: ")
